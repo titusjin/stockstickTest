@@ -1,3 +1,7 @@
+/**
+ * NOTE: this calss seems should be adopt singleton in the whole application
+ */
+
 class Candlesticks {
   constructor(options) {
     // options to receive in form of an object.
