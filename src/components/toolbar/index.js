@@ -88,7 +88,7 @@ const ToolBar = () => {
       : doDataChange(methodIndicator);
   }
   
-  const renderPatientMsg = () => {
+  const renderAlertMsg = () => {
     return (
       <div className={styles.errorMsg}>{patientMsg}</div>
     );
@@ -98,7 +98,7 @@ const ToolBar = () => {
       <div>ToolBar</div>
       {
         patientMsg
-          ? renderPatientMsg()
+          ? renderAlertMsg()
           : null
       }
       <div className={styles.iconSection}>

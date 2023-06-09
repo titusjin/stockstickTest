@@ -62,7 +62,7 @@ class Candlesticks {
 
   draw() {
     const prices = this.arrOfAllPrices(this.properties);
-    // determine Maximum value of price on Y axis:
+    // determine Maximum value of price on Y axis:d
     // We want the lowest/highest price from our list of prices first:
     let min = Math.min(...prices);
     let max = Math.max(...prices);
@@ -177,7 +177,7 @@ class Candlesticks {
       this.ctx.save();
       this.ctx.fillStyle = "#ebeff4";
       this.ctx.font = "bold 100px Arial";
-      this.ctx.fillText(this.symbol, 200, this.canvas.height / 2);
+      // this.ctx.fillText(this.symbol, 200, this.canvas.height / 2);
       this.ctx.restore();
   }
 }
