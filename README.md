@@ -14,12 +14,13 @@ NOTE: The codebase was bootstrapped with [Create React App](https://github.com/f
 4. Mock data located in src/utils/data 
    -- the initial data located in the file: initialData.js
    -- all other dynamic loading data located in the file: moreData.js
-5. 
 
 
 ## Available Scripts
 
 Currently all avalible script just comes from react-create original project can be ref on its official doc.
+  -- Use "npm start" to start the project on local environment(localhost:3000)
+
 
 
 ## Further Config resources
